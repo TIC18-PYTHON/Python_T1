@@ -15,6 +15,6 @@ Neste espaço dedicado ao Python, mergulhamos em desafios, projetos e descoberta
 
 * Nairan
 
-* Ricardo
+* Ricardo [Github](https://github.com/RicardoTIc) Email: cat-richard@hotmail.com 
 
 * Thiago Carneiro Leite  [Github](https://github.com/Leitetc) Email: thiagoleite22@hotmail.com 
