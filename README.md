@@ -9,7 +9,7 @@ Neste espaço dedicado ao Python, mergulhamos em desafios, projetos e descoberta
 
 # Informaçoes de contato
 
-* Arthur
+* Arthur Gobira https://github.com/GobiraArthur/
 
 * Luis Eduardo Barbosa Soares Rocha [Github](https://github.com/eduardsroch) E-mail: nixeo.dev@gmail.com
 
