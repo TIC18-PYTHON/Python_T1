@@ -13,7 +13,7 @@ Neste espaço dedicado ao Python, mergulhamos em desafios, projetos e descoberta
 
 * Luis Eduardo Barbosa Soares Rocha [Github](https://github.com/eduardsroch) E-mail: nixeo.dev@gmail.com
 
-* Nairan
+* Nairan B Santos [github] (https://github.com/nairansantos) Email:nairanbsanos28@Gmail.com
 
 * Ricardo [Github](https://github.com/RicardoTIc) Email: cat-richard@hotmail.com 
 
