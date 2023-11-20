@@ -43,3 +43,7 @@ alterado na edição;
 ○ Uma mensagem confirmando a execução da tarefa deve ser
 apresentada.
 
+Exercício 2: Pesquisa sobre persistência de dados.
+
+Durante o módulo anterior abordamos o tema de persistência de dados utilizando arquivos. Pesquise sobre arquivos em Python e proponha as modificações necessárias para que o aplicativo do exercício anterior utilize um arquivo para armazenar a lista de tarefas.
+
