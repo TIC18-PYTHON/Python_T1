@@ -7,10 +7,10 @@ def carregar_funcionarios(arquivo):
             linhas = file.readlines()
             for linha in linhas:
                 dados = linha.strip().split(',')
-                if len(dados) == 3:  # Verifica se a linha tem 3 elementos (data, nome, salário)
+                if len(dados) == 3:  
                     data_nascimento, nome_completo, salario = dados
                     nome_sobrenome = nome_completo.split(' ')
-                    if len(nome_sobrenome) >= 2:  # Verifica se há nome e sobrenome
+                    if len(nome_sobrenome) >= 2:  
                         nome = nome_sobrenome[0]
                         sobrenome = ' '.join(nome_sobrenome[1:])
                         funcionario = Funcionario(nome, sobrenome, data_nascimento, "", "", salario)
