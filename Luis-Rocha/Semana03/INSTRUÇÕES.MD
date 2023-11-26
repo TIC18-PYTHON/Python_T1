@@ -7,6 +7,7 @@ INSTRUÇÃO PRÁTICA | PP-P003
 preço.
 
 - Ao utilizar o programa o usuário deve poder:
+    
 **1.** Inserir um novo produto
 **2.** Excluir um produto cadastrado
 **3.** Listar todos os produtos com seus respectivos códigos e preços
