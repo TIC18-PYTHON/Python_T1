@@ -41,5 +41,4 @@ def main():
             print("Opção inválida. Escolha uma opção válida.")
 
 if __name__ == "__main__":
-    arquivo = 'funcionarios.txt' 
     main()
