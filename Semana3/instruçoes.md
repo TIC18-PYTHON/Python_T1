@@ -7,7 +7,7 @@
 >de lista e dicionário.
 
 
-# Exercício 1: Estruturando um código com funções.
+# Exercício 1: Estruturando um código com funções
 
 **Este exercício já foi implementado no módulo anterior, utilizando C++. Vejamos agora como ficaria uma versão feita em Python: Faça um programa para um supermercado que permita a consulta de preço de produtos.O programa deverá armazenar de cada produto o seu código, seu nome e seu preço. Ao utilizar o programa o usuário deve poder:**
 1. Inserir um novo produto
