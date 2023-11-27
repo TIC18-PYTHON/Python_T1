@@ -1,36 +1,33 @@
 from supermercado import Supermercado
 
+def mostrar_menu():
+    print("\nMenu:")
+    print("1. Inserir novo produto")
+    print("2. Excluir produto cadastrado")
+    print("3. Listar todos os produtos")
+    print("4. Consultar preço de um produto")
+    print("5. Sair")
+
 def main():
     mercado = Supermercado()
 
     while True:
-        print("\nMenu:")
-        print("1. Inserir novo produto")
-        print("2. Excluir produto cadastrado")
-        print("3. Listar todos os produtos")
-        print("4. Consultar preço de um produto")
-        print("5. Sair")
+        mostrar_menu()
+        escolha = input("Escolha uma opção: ")
 
-        opcao = input("Escolha uma opção: ")
-
-        if opcao == "1":
-            codigo = input("Digite o código do produto: ")
-            nome = input("Digite o nome do produto: ")
-            preco = float(input("Digite o preço do produto: "))
-            mercado.inserir_produto(codigo, nome, preco)
-        elif opcao == "2":
-            codigo = input("Digite o código do produto a ser excluído: ")
-            mercado.excluir_produto(codigo)
-        elif opcao == "3":
+        if escolha == "1":
+            mercado.adicionar_produto()
+        elif escolha == "2":
+            mercado.excluir_produto()
+        elif escolha == "3":
             mercado.listar_produtos()
-        elif opcao == "4":
-            codigo = input("Digite o código do produto para consultar o preço: ")
-            mercado.consultar_preco(codigo)
-        elif opcao == "5":
-            print("Saindo do programa...")
+        elif escolha == "4":
+            mercado.consultar_preco()
+        elif escolha == "5":
+            print("Saindo...")
             break
         else:
-            print("Opção inválida. Escolha uma opção válida.")
+            print("Opção inválida.")
 
 if __name__ == "__main__":
     main()
