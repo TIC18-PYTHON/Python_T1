@@ -238,7 +238,7 @@ class ListaIdades(AnaliseDados):
         return sorted(self.__lista)
 
 
-# Código das funções adicionais e do menu
+#funções adicionais e do menu
 
 def incluir_nome(lista_nomes):
     nome = input("Digite o nome: ")
