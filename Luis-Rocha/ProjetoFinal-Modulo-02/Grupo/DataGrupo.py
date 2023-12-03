@@ -163,6 +163,9 @@ class ListaDatas(AnaliseDados):
     def __iter__(self):
         return iter(self.__lista)
 
+    def __str__(self):
+        return ', '.join(str(data) for data in self.__lista)
+
 
 class ListaSalarios(AnaliseDados):
     def __init__(self):
@@ -270,6 +273,17 @@ def modificar_datas_anteriores_a_2019(lista_datas):
             data.dia = 1
     print("Datas modificadas com sucesso!")
 
+# Iteradores
+
+def iterador_zip(lista_nomes, lista_salarios):
+    percorrer_listas_com_zip(lista_nomes, lista_salarios)
+
+def iterador_map(lista_salarios):
+    calcular_folha_com_reajuste(lista_salarios)
+
+def iterador_filter(lista_datas):
+    modificar_datas_anteriores_a_2019(lista_datas)
+
 # Menu
 
 def menu():
@@ -300,11 +314,11 @@ def menu():
         elif opcao == "4":
             idades.entrada_de_dados()
         elif opcao == "5":
-            percorrer_listas_com_zip(nomes, salarios)
+            iterador_zip(nomes, salarios)
         elif opcao == "6":
-            calcular_folha_com_reajuste(salarios)
+            iterador_map(salarios)
         elif opcao == "7":
-            modificar_datas_anteriores_a_2019(datas)
+            iterador_filter(datas)
         elif opcao == "8":
             print("Saindo...")
             break
