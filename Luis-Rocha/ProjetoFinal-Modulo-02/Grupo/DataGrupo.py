@@ -1,12 +1,12 @@
 from abc import ABC, abstractmethod
 
 class Data:
-    def __init__(self, dia=1, mes=1, ano=2000):
+    def __init__(self, dia=1, mes=1, ano=1940):
         if dia < 1 or dia > 31:
             raise ValueError("Dia inválido")
         if mes < 1 or mes > 12:
             raise ValueError("Mês inválido")
-        if ano < 2000 or ano > 2100:
+        if ano < 1940 or ano > 2100:
             raise ValueError("Ano inválido")
         self.__dia = dia
         self.__mes = mes
@@ -38,7 +38,7 @@ class Data:
     
     @ano.setter
     def ano(self, ano):
-        if ano < 2000 or ano > 2100:
+        if ano < 1940 or ano > 2100:
             raise ValueError("Ano inválido")
         self.__ano = ano
     
